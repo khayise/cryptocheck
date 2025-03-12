@@ -1,0 +1,26 @@
+{
+  "name": "cryptocheck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node --transpileOnly src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/node-cron": "^3.0.11",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.12.1",
+    "node-cron": "^3.0.3",
+    "telegraf": "^4.16.3"
+  }
+}
